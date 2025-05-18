@@ -7,36 +7,31 @@
   --color-headerBg: #f5f7fa;         /* Very light gray-blue */
   --color-Background: #ffffff;       /* Pure white for clarity */
   --color-Text: #1f2d3d;             /* Very dark blue-gray for readability */
-
   --color-Aside: #f0f4f8;            /* Light muted background */
   --color-Aside-Border: #cbd5e0;     /* Neutral light gray */
-
   --color-Chart-Primary: #2a3f5f;
   --color-Chart-Secondary: #4c5c74;
   --color-Chart-Accent1: #1d9bf0;    /* Bright blue accent */
   --color-Chart-Accent2: #8e9bae;
   --color-Chart-Accent3: #2b6cb0;
   --color-Chart-Background: #f5f7fa;
-
   --color-Success: #38a169;          /* Green */
   --color-Warning: #dd6b20;          /* Orange */
   --color-Danger: #e53e3e;           /* Red */
   --color-Info: #3182ce;             /* Blue */
   --color-Disabled: #e2e8f0;         /* Light gray */
-
   --color-Input-Background: #ffffff;
   --color-Input-Border: #cbd5e0;
   --color-Input-Focus: #2b6cb0;
-
---text-desc-sm: 0.875rem;   
-  --text-desc-md: 1rem;       
+  --text-desc-sm: 0.875rem;  
+  --text-desc-md: 1rem;      
   --text-desc-lg: 1.125rem;
- --breakpoint-3xl: 125rem;
- --text-header-sm: 1.25rem;   
-  --text-header-md: 1.5rem;     
-  --text-header-lg: 2rem;   
+  --breakpoint-3xl: 125rem;
+  --text-header-sm: 1.25rem;  
+  --text-header-md: 1.5rem;    
+  --text-header-lg: 2rem;  
   --text-title-sm: 1.125rem;  
-  --text-title-md: 1.25rem;   
+  --text-title-md: 1.25rem;  
   --text-title-lg: 1.5rem;
 }
 
@@ -47,23 +42,19 @@
   --color-headerBg: #0f1722;
   --color-Background: #111827;
   --color-Text: #e5e7eb;
-
   --color-Aside: #1f2937;
   --color-Aside-Border: #374151;
-
   --color-Chart-Primary: #3b82f6;
   --color-Chart-Secondary: #60a5fa;
   --color-Chart-Accent1: #93c5fd;
   --color-Chart-Accent2: #2563eb;
   --color-Chart-Accent3: #1e3a8a;
   --color-Chart-Background: #1f2937;
-
   --color-Success: #48bb78;
   --color-Warning: #f6ad55;
   --color-Danger: #f56565;
   --color-Info: #63b3ed;
   --color-Disabled: #2d3748;
-
   --color-Input-Background: #1a202c;
   --color-Input-Border: #4a5568;
   --color-Input-Focus: #3b82f6;

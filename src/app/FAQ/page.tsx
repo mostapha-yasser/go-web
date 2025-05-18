@@ -1,9 +1,10 @@
 import React from 'react';
+import Loading from '../loading';
 
-function FAQ() {
+async function FAQ() {
     return (
 <div className="min-h-screen text-5xl flex justify-center items-center">
-            FAQ
+            <Loading/>
         </div>
     );
 }
