@@ -1,8 +1,4 @@
-import type { Metadata } from "next";
-import "./globals.css";
-import NavBar from "@/components/fixed-components/NavBar";
-import Footer from "@/components/fixed-components/Footer";
-import ContextProvider from "@/contexts/ContextProvider";
+import { Metadata } from "next";
 
 export async function generateMetadata({ params }: { params: { lang: string } }): Promise<Metadata> {
   const isArabic = params.lang === 'ar';
@@ -76,30 +72,4 @@ export async function generateMetadata({ params }: { params: { lang: string } })
       },
     },
   };
-}
-
-export default function RootLayout({
-  children,
-  params,
-}: {
-  children: React.ReactNode,
-  params: { lang: string }
-}) {
-  const isArabic = params.lang === 'ar';
-  
-  return (
-    <html 
-      lang={isArabic ? 'ar' : 'en'}
-      dir={isArabic ? 'rtl' : 'ltr'}
-    >
-      <body >
-        <ContextProvider>
-
-        <NavBar  />
-        {children}
-        <Footer  />
-        </ContextProvider>
-      </body>
-    </html>
-  );
 }

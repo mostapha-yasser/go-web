@@ -1,0 +1,10 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Go-web text -->
+  <text x="300" y="180" font-family="Arial, sans-serif" font-size="130" font-weight="bold" text-anchor="middle" fill="#202020">Go-web</text>
+  
+  <!-- Tagline -->
+  <text x="300" y="250" font-family="Arial, sans-serif" font-size="38" text-anchor="middle" fill="#202020">Step by Step... From Concept to Global</text>
+  
+  <!-- Horizontal line -->
+  <line x1="120" y1="290" x2="480" y2="290" stroke="#202020" stroke-width="8"/>
+</svg>
