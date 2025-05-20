@@ -1,14 +1,15 @@
+import WhoAreWe from "@/components/home-component/WhoAreWe";
 
 export default function Home() {
   return (
-<div className="min-h-screen text-5xl flex justify-center item">
+<div className="w-full py-40 bg-main/5 bg-main" >
+  <WhoAreWe/>
+  <WhoAreWe/>
+  <WhoAreWe/>
+  <WhoAreWe/>
 
 
-
-content and sections
-
-
-
+  <WhoAreWe/>
 </div>
   );
 }

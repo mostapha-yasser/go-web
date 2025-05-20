@@ -1,28 +1,36 @@
 @import "tailwindcss";
 
 @theme {
-  /* Light Mode */
-  --color-main: #2a3f5f;             /* Professional navy blue */
-  --color-Secondary: #3b4b63;        /* Slightly lighter navy */
-  --color-headerBg: #f5f7fa;         /* Very light gray-blue */
-  --color-Background: #ffffff;       /* Pure white for clarity */
-  --color-Text: #1f2d3d;             /* Very dark blue-gray for readability */
-  --color-Aside: #f0f4f8;            /* Light muted background */
-  --color-Aside-Border: #cbd5e0;     /* Neutral light gray */
-  --color-Chart-Primary: #2a3f5f;
-  --color-Chart-Secondary: #4c5c74;
-  --color-Chart-Accent1: #1d9bf0;    /* Bright blue accent */
-  --color-Chart-Accent2: #8e9bae;
-  --color-Chart-Accent3: #2b6cb0;
-  --color-Chart-Background: #f5f7fa;
-  --color-Success: #38a169;          /* Green */
-  --color-Warning: #dd6b20;          /* Orange */
-  --color-Danger: #e53e3e;           /* Red */
-  --color-Info: #3182ce;             /* Blue */
-  --color-Disabled: #e2e8f0;         /* Light gray */
+  /* Light Mode - Uplifted Color Palette */
+  --color-main: #0C214F;             /* Vibrant primary blue */
+  --color-Secondary: #3b82f6;        /* Lighter energetic blue */
+  --color-headerBg: #f8fafc;         /* Clean white with slight cool tone */
+  --color-Background: #ffffff;       /* Pure white */
+  --color-Text: #1e293b;             /* Deep slate blue for readability */
+  --color-Aside: #f1f5f9;            /* Very light blue-gray */
+  --color-Aside-Border: #e2e8f0;     /* Soft border color */
+  
+  /* Chart Colors */
+  --color-Chart-Primary: #2563eb;
+  --color-Chart-Secondary: #3b82f6;
+  --color-Chart-Accent1: #10b981;    /* Fresh teal */
+  --color-Chart-Accent2: #f59e0b;    /* Warm amber */
+  --color-Chart-Accent3: #8b5cf6;    /* Vibrant purple */
+  --color-Chart-Background: #f8fafc;
+  
+  /* Status Colors */
+  --color-Success: #10b981;          /* Fresh green */
+  --color-Warning: #f59e0b;          /* Warm orange */
+  --color-Danger: #ef4444;           /* Bright red */
+  --color-Info: #0ea5e9;             /* Sky blue */
+  --color-Disabled: #e2e8f0;
+  
+  /* Input Colors */
   --color-Input-Background: #ffffff;
-  --color-Input-Border: #cbd5e0;
-  --color-Input-Focus: #2b6cb0;
+  --color-Input-Border: #cbd5e1;
+  --color-Input-Focus: #2563eb;
+  
+  /* Typography (unchanged) */
   --text-desc-sm: 0.875rem;  
   --text-desc-md: 1rem;      
   --text-desc-lg: 1.125rem;
@@ -35,27 +43,39 @@
   --text-title-lg: 1.5rem;
 }
 
-/* Dark Mode */
+/* Dark Mode - Deep but vibrant */
 [data-theme="dark"] {
-  --color-main: #1a2533;
-  --color-Secondary: #2b3b4d;
-  --color-headerBg: #0f1722;
-  --color-Background: #111827;
-  --color-Text: #e5e7eb;
-  --color-Aside: #1f2937;
-  --color-Aside-Border: #374151;
+  --color-main: #3b82f6;
+  --color-Secondary: #60a5fa;
+  --color-headerBg: #0f172a;
+  --color-Background: #1e293b;
+  --color-Text: #f8fafc;
+  --color-Aside: #1e293b;
+  --color-Aside-Border: #334155;
+  
+  /* Chart Colors */
   --color-Chart-Primary: #3b82f6;
   --color-Chart-Secondary: #60a5fa;
-  --color-Chart-Accent1: #93c5fd;
-  --color-Chart-Accent2: #2563eb;
-  --color-Chart-Accent3: #1e3a8a;
-  --color-Chart-Background: #1f2937;
-  --color-Success: #48bb78;
-  --color-Warning: #f6ad55;
-  --color-Danger: #f56565;
-  --color-Info: #63b3ed;
-  --color-Disabled: #2d3748;
-  --color-Input-Background: #1a202c;
-  --color-Input-Border: #4a5568;
+  --color-Chart-Accent1: #10b981;
+  --color-Chart-Accent2: #f59e0b;
+  --color-Chart-Accent3: #8b5cf6;
+  --color-Chart-Background: #1e293b;
+  
+  /* Status Colors */
+  --color-Success: #10b981;
+  --color-Warning: #f59e0b;
+  --color-Danger: #ef4444;
+  --color-Info: #0ea5e9;
+  --color-Disabled: #334155;
+  
+  /* Input Colors */
+  --color-Input-Background: #1e293b;
+  --color-Input-Border: #475569;
   --color-Input-Focus: #3b82f6;
+}
+.bg-footer{
+  background-image: url("../../public/bg-footer.svg");
+}
+.bg-main{
+  background-image: url("../../public/bg-main.svg");
 }

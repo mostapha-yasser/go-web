@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
     return (
         <nav className={`absolute top-0 left-0 right-0 z-50 transition-all duration-300 text-textColor 
        
-        bg-headerBg
+        bg-headerBg  shadow shadow-Aside-Border
         `}>
 
             <div className="container mx-auto max-w-[95%] md:max-w-[85%]  xl:max-w-[75%] 2xl:max-w-[70%] px-5 py-3">
