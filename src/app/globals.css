@@ -76,6 +76,9 @@
 .bg-footer{
   background-image: url("../../public/bg-footer.svg");
 }
-.bg-main{
+.bg-home{
   background-image: url("../../public/bg-main.svg");
+}
+.bg-progressBar{
+  background-image: url("../../public/bg-progressBar.svg");
 }

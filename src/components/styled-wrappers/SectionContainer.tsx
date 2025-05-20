@@ -1,3 +1,4 @@
+
 "use client";
 
 import React, { useRef } from "react";
@@ -48,7 +49,7 @@ const SectionContainer: React.FC<SectionContainerProps> = ({
         ease: "none",
         scrollTrigger: {
           trigger: section,
-          start: "top bottom",
+          start: "top 80%",
           end: "bottom bottom",
           scrub: 1,
           invalidateOnRefresh: true,
@@ -107,13 +108,13 @@ const SectionContainer: React.FC<SectionContainerProps> = ({
   return (
     <section
       ref={sectionRef}
-      className={` overflow-hidden text-textColor pt-15 pb-25 mx-auto ${sectionClass} `}
+      className={` overflow-hidden text-textColor pt-15 pb-25 mx-auto ${sectionClass}  mb-40 `}
     >
       <div className={`container mx-auto px-6 max-w-6xl text-main ${containerClass} pt-10 flex justify-between flex-row-reverse gap-8 `}>
-      <div className="w-2 z-50 bg-gray-300 relative border-2 border-main ">
+      <div className="w-3 z-50 bg-gray-300 relative border-2 border-main rounded-2xl  ">
   <div
     ref={progressRef}
-    className={`absolute top-0 left-1/2 -translate-x-1/2 w-2  bg-Secondary rounded-full`}
+    className={`absolute top-0 left-1/2 -translate-x-1/2 w-3 bg-progressBar  z-40  rounded-full`}
     style={{ height: "0%" }}
   />
 </div>
