@@ -1,4 +1,4 @@
-import SectionContainer from "@/components/styles-wrappers/SectionContainer";
+import SectionContainer from "@/components/styled-wrappers/SectionContainer";
 
 function Services() {
     return (
