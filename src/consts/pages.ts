@@ -1,13 +1,16 @@
 export const pages = [
-
-    {
-      title: "Portfolio",
-      target: "/portfolio"
-    },
-    {
-      title: "Service",
-      target: "/services"
-    },
+  {
+    title: "projects",
+    target: "/projects"
+  },
+  {
+    title: "Portfolio",
+    target: "/portfolio"
+  },
+  {
+    title: "Service",
+    target: "/services"
+  },
   {
     title: "About Us",
     target: "/about-us"
