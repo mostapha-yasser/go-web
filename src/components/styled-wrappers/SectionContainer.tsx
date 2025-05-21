@@ -111,7 +111,7 @@ const SectionContainer: React.FC<SectionContainerProps> = ({
       className={` overflow-hidden text-textColor pt-15 pb-25 mx-auto ${sectionClass}  mb-40 `}
     >
       <div className={`container mx-auto px-6 max-w-6xl text-main ${containerClass} pt-10 flex justify-between flex-row-reverse gap-8 `}>
-      <div className="w-3 z-50 bg-gray-300 relative border-2 border-main rounded-2xl  ">
+      <div className="w-5 z-50 bg-gray-300 relative border-2 border-main rounded-2xl  ">
   <div
     ref={progressRef}
     className={`absolute top-0 left-1/2 -translate-x-1/2 w-3 bg-progressBar  z-40  rounded-full`}
