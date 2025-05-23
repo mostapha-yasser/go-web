@@ -9,7 +9,8 @@
   --color-Text: #1e293b;             /* Deep slate blue for readability */
   --color-Aside: #f1f5f9;            /* Very light blue-gray */
   --color-Aside-Border: #e2e8f0;     /* Soft border color */
-  
+  /* font */
+    --font-helvetica:  "helvetica" , 'Arial', 'sans-serif'; 
   /* Chart Colors */
   --color-Chart-Primary: #2563eb;
   --color-Chart-Secondary: #3b82f6;

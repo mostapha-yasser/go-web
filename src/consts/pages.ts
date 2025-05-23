@@ -14,5 +14,9 @@ export const pages = [
   {
     title: "FAQ",
     target: "/FAQ"
+  },
+  {
+    title: "contact",
+    target: "/contact"
   }
 ];
